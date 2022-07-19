@@ -1,0 +1,53 @@
+ h1{
+  text-align: center;
+  font-size: 100px;
+  color:firebrick;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: pink;;
+} 
+
+body{
+  background-color: pink;
+}
+
+p{
+  text-align: center;
+  font-size: 90px;
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+
+}
+
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: hotpink;
+}
+
+li{
+  float: left;
+}  
+
+
+/* a{
+  display:block;
+  padding: 8px;
+  background-color:hotpink;
+} */
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hoover:not(.active) {
+  background: blue;
+}
+
+.active{
+  background-color:maroon;
+}

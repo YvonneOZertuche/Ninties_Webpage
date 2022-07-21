@@ -1,0 +1,24 @@
+h1 {
+  text-align: center;
+  font-size: 100px;
+  color: blue;
+  font-style: italic;
+  /* font-famil'y: Georgia, 'Times New Roman', Times, serif; */
+  font-family: 'Fira Code', monospace;
+}
+
+body{
+  background-color: palevioletred;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background: blue;
+}
